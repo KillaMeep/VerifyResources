@@ -2,7 +2,7 @@
 name = "locate-resources"
 version = "0.1.0"
 description = "Minecraft resource verifier and downloader"
-authors = [{name = "Your Name"}]
+authors = [{name = "KillaMeep"}]
 dependencies = [
     "textual>=0.70.0",
     "aiohttp>=3.9.0",
@@ -12,4 +12,5 @@ dependencies = [
 requires-python = ">=3.8"
 
 [project.scripts]
+
 locate-resources = "locate_resources:main"
